@@ -1,375 +1,375 @@
 /* Navbar */
 .navbar {
-	background-color: transparent;
-	background: none;
+  background-color: transparent;
+  background: none;
 }
 .navbar-brand {
-	padding-left: 0px;
+  padding-left: 0px;
 }
 
 .navbar-brand>img {
-	height: 30px;
+  height: 30px;
 }
 
 ul.nav a:hover {
-	color: black;
-	background-color: transparent;
+  color: black;
+  background-color: transparent;
 }
 
 ul.nav.navbar-nav.navbar-right {
-	padding-top: 7px;
-	display: none;
+  padding-top: 7px;
+  display: none;
 }
 
 @media only screen and (min-width : 765px) {
-	ul.nav.navbar-nav.navbar-right {	
-		display: inline-block;
-	}
+  ul.nav.navbar-nav.navbar-right {  
+    display: inline-block;
+  }
 }
 
 
 a {
-	font-size: 17px;
-	color: #440C7A;
-	font-weight: 600;
+  font-size: 17px;
+  color: #440C7A;
+  font-weight: 600;
 }
 
 /* TITLE SECTION */
 #home {
-	background-image: url(assets/background.png);
-	height: 490px;
+  background-image: url(assets/background.png);
+  height: 490px;
 }
-	
+
 @media only screen and (min-width : 765px) {
-	#home {	
-		height: 600px;
-	}
+  #home { 
+    height: 600px;
+  }
 }
-	
+
 @media only screen and (min-width : 1200px){
-	#home {
-		max-height: 600px;
-	}
+  #home {
+    max-height: 600px;
+  }
 }
 
 .row {
-	padding-top: 0px;
-	padding-left: 0px;
-	margin-right: 0px;
-	margin-left: 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 @media only screen and (min-width : 765px) {
-	.row {
-		padding-top: 40px;
-	}
+  .row {
+    padding-top: 40px;
+  }
 }
 
 @media only screen and (min-width : 1200px) {
-	.row {
-		padding-left: 61px;
-		padding-top: 8px;
-	}
+  .row {
+    padding-left: 61px;
+    padding-top: 8px;
+  }
 }
 
 h1 {
-		font-family: 'Londrina Outline', cursive;
-		font-size: 50px;
-		color: black;
-		padding-left: 50px;
-		padding-top: 10px;
+  font-family: 'Londrina Outline', cursive;
+  font-size: 50px;
+  color: black;
+  padding-left: 50px;
+  padding-top: 10px;
 }
 
 @media only screen and (min-width : 765px) {
-		h1 {
-		font-size: 70px;
-	}
+  h1 {
+    font-size: 70px;
+  }
 }
 
 @media only screen and (min-width : 1200px) {
-		h1 {
-		font-size: 90px;
-	}
+  h1 {
+    font-size: 90px;
+  }
 }
 
 
 h2 {
-    font-family: 'Bungee', cursive;
-    text-shadow: 6px 2px #C6B2ED;
-    font-size: 37px;
-    padding-left: 50px;
-    color: black;
-    margin-top: 0px;
+  font-family: 'Bungee', cursive;
+  text-shadow: 6px 2px #C6B2ED;
+  font-size: 37px;
+  padding-left: 50px;
+  color: black;
+  margin-top: 0px;
 }
 
 @media only screen and (min-width : 765px) {
-    h2 {	
-    	font-size: 67px;
-    }
+  h2 {  
+    font-size: 67px;
+  }
 }
-    
+
 @media only screen and (min-width : 1200px) {
-    h2 {	
-    	font-size: 90px;
-	}
+  h2 {  
+    font-size: 90px;
+  }
 }
 
 span {
-	font-family: 'Bitter', cursive;
-	color: black;
-	font-weight: 100;
-	font-size: 21px;
-	padding-left: 50px;
-	display: block;
-	padding-top: 4px;
+  font-family: 'Bitter', cursive;
+  color: black;
+  font-weight: 100;
+  font-size: 21px;
+  padding-left: 50px;
+  display: block;
+  padding-top: 4px;
 }
 
 @media only screen and (min-width : 765px) {
-	span {
-		font-size: 26px;
-	}
+  span {
+    font-size: 26px;
+  }
 }
 
 @media only screen and (min-width : 1200px) {
-	span {	
-		font-size: 36px;
-	}
+  span {  
+    font-size: 36px;
+  }
 }
 
 /* ABOUT SECTION */
 
 .container-fluid {
-	width: 100%;
-	padding-left: 29px;
+  width: 100%;
+  padding-left: 29px;
 }
 
 #info-left {
-	display: inline-block;
-	height: 342px;
-	background-color: #C6B2ED;
-	padding-bottom: 15px;
-	width: 98%;
-	max-width: 500px;
+  display: inline-block;
+  height: 342px;
+  background-color: #C6B2ED;
+  padding-bottom: 15px;
+  width: 98%;
+  max-width: 500px;
 }
 
 @media only screen and (min-width : 765px) {
-	#info-left {	
-		width: 525px;
-		height: 380px;
-		padding-top: 22px;
-	}
+  #info-left {  
+    width: 525px;
+    height: 380px;
+    padding-top: 22px;
+  }
 }
 
 @media only screen and (min-width : 1200px) {
-	#info-left {	
-		max-width: 560px;
-		padding-top: 23px;
-	}
+  #info-left {  
+    max-width: 560px;
+    padding-top: 23px;
+  }
 }
 
 #info-title {
-	font-size: 28px;
-	padding-top: 16%;
-	padding-left: 0px;
+  font-size: 28px;
+  padding-top: 16%;
+  padding-left: 0px;
 }
 
 @media only screen and (min-width : 765px) {
-	#info-title {	
-		padding-left: 50px;
-		font-size: 43px;
-		padding-top: 15%;
-		text-shadow: 4px 1px #C6B2ED;
-		width: 458px;
-	}
+  #info-title { 
+    padding-left: 50px;
+    font-size: 43px;
+    padding-top: 15%;
+    text-shadow: 4px 1px #C6B2ED;
+    width: 458px;
+  }
 }
 
 @media only screen and (min-width : 1200px) {
-	#info-title {
-		font-size: 50px;
-		width: 493px;
-		padding-top: 23%;
-		padding-left: 0px;
-	}
+  #info-title {
+    font-size: 50px;
+    width: 493px;
+    padding-top: 23%;
+    padding-left: 0px;
+  }
 }
 
 .lead {
-    font-weight: 600;
-    text-align: center;
-    font-size: 27px;
-    padding-top: 40px;
-    margin-bottom: 11px;
+  font-weight: 600;
+  text-align: center;
+  font-size: 27px;
+  padding-top: 40px;
+  margin-bottom: 11px;
 }
 
 @media only screen and(min-width : 765px) {
-    .lead {
-    	padding-top: 109px;
-    }
+  .lead {
+    padding-top: 109px;
+  }
 }
 
 .free {
-	font-size: 21px;
-	color: #440C7A;
-	padding: 0 0px;
-	text-align: center;
+  font-size: 21px;
+  color: #440C7A;
+  padding: 0 0px;
+  text-align: center;
 }
 
 @media only screen and (min-width : 765px) {
-	.free {		
-		padding: 0 99px;
-		text-align: none;
-	}
+  .free {   
+    padding: 0 99px;
+    text-align: none;
+  }
 }
 
 @media only screen and (min-width : 1200px) {
-	.free {	
-		padding-left: 91px;
-		margin: 0 0 -24px;
-	}
+  .free { 
+    padding-left: 91px;
+    margin: 0 0 -24px;
+  }
 }
 
 label {
-	font-size: 24px;
+  font-size: 24px;
 }
 
 label.col-xs-2.col-form-label {
-	padding-left: 0px;
+  padding-left: 0px;
 }
 
 @media only screen and (min-width : 765px) {
-	label.col-xs-2.col-form-label {	
-		padding-left: 12px;
-	}
+  label.col-xs-2.col-form-label { 
+    padding-left: 12px;
+  }
 }
 
 @media only screen and (min-width : 1200px) {
-	label.col-xs-2.col-form-label {
-		padding-top: 60px;
-		padding-bottom: 0px;
-		line-height: 0px;
-		padding-left: 15px;
-	}
+  label.col-xs-2.col-form-label {
+    padding-top: 60px;
+    padding-bottom: 0px;
+    line-height: 0px;
+    padding-left: 15px;
+  }
 }
 
 div.col-xs-10 {
-	width: 127.33333%;
-	padding-left: 0px;
-	padding-right: 0px;
+  width: 127.33333%;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 @media only screen and (min-width : 765px) {
-	div.col-xs-10 {	
-		padding-left: 14px;
-		padding-right: 31px;
-	}
+  div.col-xs-10 { 
+    padding-left: 14px;
+    padding-right: 31px;
+  }
 }
 
 .form-group {
-	margin-bottom: 3px;
-	padding-left: 0px;
-	padding-top: 9px;
-	padding-right: 3px;
+  margin-bottom: 3px;
+  padding-left: 0px;
+  padding-top: 9px;
+  padding-right: 3px;
 }
 
 @media only screen and (min-width : 765px) {
-	.form-group {
-		padding-left: 23px;
-	}
+  .form-group {
+    padding-left: 23px;
+  }
 }
 
 @media only screen and (min-width : 1200px) {
-	.form-group {
-		padding-left: 61px;
-		padding-right: 43px;
-	}
+  .form-group {
+    padding-left: 61px;
+    padding-right: 43px;
+  }
 }
 
 .privacy {
-	font-size: 11px;
-	padding: 3px 10px;
-	margin: 0 0 10px;
+  font-size: 11px;
+  padding: 3px 10px;
+  margin: 0 0 10px;
 }
 
 @media only screen and (min-width : 765px) {
-	.privacy {	
-		font-size: 15px;
-		padding-left: 85px;
-	}
+  .privacy {  
+    font-size: 15px;
+    padding-left: 85px;
+  }
 }
 
 #info-row {
-	padding-bottom: 36px;
-	padding-top: 32px;
+  padding-bottom: 36px;
+  padding-top: 32px;
 }
 
 .form-control {
-	display: inline-block;
-	width: 77%;
-	height: 34px;
-	padding-bottom: 0px;
-	max-width: 400px;
+  display: inline-block;
+  width: 77%;
+  height: 34px;
+  padding-bottom: 0px;
+  max-width: 400px;
 }
 
 @media only screen and (min-width : 765px) {
-	.form-control {	
-		padding-bottom: 27px;
-		width: 63%;
-	}
+  .form-control { 
+    padding-bottom: 27px;
+    width: 63%;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
-	.form-control {
-		width: 68%;
-	}
+  .form-control {
+    width: 68%;
+  }
 }
 
 .btn {
-	border-color: darkgray;
-	margin-top: 10px;
-	padding-top: 0px;
-	display: block;
+  border-color: darkgray;
+  margin-top: 10px;
+  padding-top: 0px;
+  display: block;
 }
 
 @media only screen and (min-width : 765px) {
-	.btn {	
-		padding-top: 13px;
-		display: inline-block;
-	}
+  .btn {  
+    padding-top: 13px;
+    display: inline-block;
+  }
 }
 
 @media only screen and (min-width : 1200px) {
-	.btn {
-		padding: 9px 11px;
-		margin-top: 19px;
-		display: inline-block;
-	}
+  .btn {
+    padding: 9px 11px;
+    margin-top: 19px;
+    display: inline-block;
+  }
 }
 
 #about {
-	background-color: transparent;
+  background-color: transparent;
 }
 
 #code-smart {
-	width: 95%;
-	font-size: 42px;
+  width: 95%;
+  font-size: 42px;
 }
 
 @media only screen and (min-width : 765px) {
-	#code-smart {	
-		width: 416px;
-		display: inline-block;
-	}
+  #code-smart { 
+    width: 416px;
+    display: inline-block;
+  }
 }
 
 @media only screen and (min-width : 1200px) {
-	#code-smart {
-		padding-left: 78px;
-	}
+  #code-smart {
+    padding-left: 78px;
+  }
 }
 
 /* FOOTER */
 footer {
-	height: 65px;
-	width: 100%;
-	background-color: gray;
+  height: 65px;
+  width: 100%;
+  background-color: gray;
 }
 
